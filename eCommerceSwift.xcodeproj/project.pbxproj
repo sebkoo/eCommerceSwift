@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F10E71692DF734360035A1A2 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = F10E71682DF734360035A1A2 /* Stripe */; };
+		F10E716D2DF738660035A1A2 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = F10E716C2DF738660035A1A2 /* StripePaymentSheet */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F10E714A2DF66E970035A1A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -39,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10E716D2DF738660035A1A2 /* StripePaymentSheet in Frameworks */,
+				F10E71692DF734360035A1A2 /* Stripe in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +97,8 @@
 			);
 			name = eCommerceSwift;
 			packageProductDependencies = (
+				F10E71682DF734360035A1A2 /* Stripe */,
+				F10E716C2DF738660035A1A2 /* StripePaymentSheet */,
 			);
 			productName = eCommerceSwift;
 			productReference = F10E70FE2DF669E70035A1A2 /* eCommerceSwift.app */;
@@ -146,6 +155,9 @@
 			);
 			mainGroup = F10E70F52DF669E70035A1A2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F10E71672DF731FD0035A1A2 /* XCRemoteSwiftPackageReference "stripe-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F10E70FF2DF669E70035A1A2 /* Products */;
 			projectDirPath = "";
@@ -438,6 +450,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F10E71672DF731FD0035A1A2 /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F10E71682DF734360035A1A2 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F10E71672DF731FD0035A1A2 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
+		};
+		F10E716C2DF738660035A1A2 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F10E71672DF731FD0035A1A2 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F10E70F62DF669E70035A1A2 /* Project object */;
 }
