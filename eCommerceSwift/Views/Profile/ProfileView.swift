@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @State private var showLogin = false
+
     var body: some View {
-        Text("Profile")
+        NavigationView {
+            if AuthService.shared.isLoggedIn {
+                Button("Logout") {
+                    AuthService.shared.logout()
+                }
+            } else {
+                Button("Login") {
+                    showLogin = true
+                }
+            }
+        }
+        .navigationTitle("Profile")
+        .sheet(isPresented: $showLogin) {
+            LoginView()
+        }
     }
 }
 

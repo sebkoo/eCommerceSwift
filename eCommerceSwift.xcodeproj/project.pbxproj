@@ -7,20 +7,6 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		F10E710C2DF669EE0035A1A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F10E70F62DF669E70035A1A2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F10E70FD2DF669E70035A1A2;
-			remoteInfo = eCommerceSwift;
-		};
-		F10E71162DF669EE0035A1A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F10E70F62DF669E70035A1A2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F10E70FD2DF669E70035A1A2;
-			remoteInfo = eCommerceSwift;
-		};
 		F10E714A2DF66E970035A1A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F10E70F62DF669E70035A1A2 /* Project object */;
@@ -32,8 +18,6 @@
 
 /* Begin PBXFileReference section */
 		F10E70FE2DF669E70035A1A2 /* eCommerceSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCommerceSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F10E710B2DF669EE0035A1A2 /* eCommerceSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCommerceSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F10E71152DF669EE0035A1A2 /* eCommerceSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCommerceSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10E71462DF66E970035A1A2 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,20 +36,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		F10E70FB2DF669E70035A1A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F10E71082DF669EE0035A1A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F10E71122DF669EE0035A1A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,8 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				F10E70FE2DF669E70035A1A2 /* eCommerceSwift.app */,
-				F10E710B2DF669EE0035A1A2 /* eCommerceSwiftTests.xctest */,
-				F10E71152DF669EE0035A1A2 /* eCommerceSwiftUITests.xctest */,
 				F10E71462DF66E970035A1A2 /* Tests.xctest */,
 			);
 			name = Products;
@@ -126,46 +94,6 @@
 			productName = eCommerceSwift;
 			productReference = F10E70FE2DF669E70035A1A2 /* eCommerceSwift.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F10E710A2DF669EE0035A1A2 /* eCommerceSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F10E71222DF669EE0035A1A2 /* Build configuration list for PBXNativeTarget "eCommerceSwiftTests" */;
-			buildPhases = (
-				F10E71072DF669EE0035A1A2 /* Sources */,
-				F10E71082DF669EE0035A1A2 /* Frameworks */,
-				F10E71092DF669EE0035A1A2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F10E710D2DF669EE0035A1A2 /* PBXTargetDependency */,
-			);
-			name = eCommerceSwiftTests;
-			packageProductDependencies = (
-			);
-			productName = eCommerceSwiftTests;
-			productReference = F10E710B2DF669EE0035A1A2 /* eCommerceSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F10E71142DF669EE0035A1A2 /* eCommerceSwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F10E71252DF669EE0035A1A2 /* Build configuration list for PBXNativeTarget "eCommerceSwiftUITests" */;
-			buildPhases = (
-				F10E71112DF669EE0035A1A2 /* Sources */,
-				F10E71122DF669EE0035A1A2 /* Frameworks */,
-				F10E71132DF669EE0035A1A2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F10E71172DF669EE0035A1A2 /* PBXTargetDependency */,
-			);
-			name = eCommerceSwiftUITests;
-			packageProductDependencies = (
-			);
-			productName = eCommerceSwiftUITests;
-			productReference = F10E71152DF669EE0035A1A2 /* eCommerceSwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		F10E71452DF66E970035A1A2 /* Tests */ = {
 			isa = PBXNativeTarget;
@@ -203,14 +131,6 @@
 					F10E70FD2DF669E70035A1A2 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					F10E710A2DF669EE0035A1A2 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = F10E70FD2DF669E70035A1A2;
-					};
-					F10E71142DF669EE0035A1A2 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = F10E70FD2DF669E70035A1A2;
-					};
 					F10E71452DF66E970035A1A2 = {
 						CreatedOnToolsVersion = 16.3;
 						TestTargetID = F10E70FD2DF669E70035A1A2;
@@ -232,8 +152,6 @@
 			projectRoot = "";
 			targets = (
 				F10E70FD2DF669E70035A1A2 /* eCommerceSwift */,
-				F10E710A2DF669EE0035A1A2 /* eCommerceSwiftTests */,
-				F10E71142DF669EE0035A1A2 /* eCommerceSwiftUITests */,
 				F10E71452DF66E970035A1A2 /* Tests */,
 			);
 		};
@@ -241,20 +159,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		F10E70FC2DF669E70035A1A2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F10E71092DF669EE0035A1A2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F10E71132DF669EE0035A1A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,20 +182,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F10E71072DF669EE0035A1A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F10E71112DF669EE0035A1A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F10E71422DF66E970035A1A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,16 +192,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F10E710D2DF669EE0035A1A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F10E70FD2DF669E70035A1A2 /* eCommerceSwift */;
-			targetProxy = F10E710C2DF669EE0035A1A2 /* PBXContainerItemProxy */;
-		};
-		F10E71172DF669EE0035A1A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F10E70FD2DF669E70035A1A2 /* eCommerceSwift */;
-			targetProxy = F10E71162DF669EE0035A1A2 /* PBXContainerItemProxy */;
-		};
 		F10E714B2DF66E970035A1A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F10E70FD2DF669E70035A1A2 /* eCommerceSwift */;
@@ -493,74 +373,6 @@
 			};
 			name = Release;
 		};
-		F10E71232DF669EE0035A1A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ben.koo.eCommerceSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eCommerceSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eCommerceSwift";
-			};
-			name = Debug;
-		};
-		F10E71242DF669EE0035A1A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ben.koo.eCommerceSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eCommerceSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eCommerceSwift";
-			};
-			name = Release;
-		};
-		F10E71262DF669EE0035A1A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ben.koo.eCommerceSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = eCommerceSwift;
-			};
-			name = Debug;
-		};
-		F10E71272DF669EE0035A1A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ben.koo.eCommerceSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = eCommerceSwift;
-			};
-			name = Release;
-		};
 		F10E714D2DF66E970035A1A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -612,24 +424,6 @@
 			buildConfigurations = (
 				F10E71202DF669EE0035A1A2 /* Debug */,
 				F10E71212DF669EE0035A1A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F10E71222DF669EE0035A1A2 /* Build configuration list for PBXNativeTarget "eCommerceSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F10E71232DF669EE0035A1A2 /* Debug */,
-				F10E71242DF669EE0035A1A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F10E71252DF669EE0035A1A2 /* Build configuration list for PBXNativeTarget "eCommerceSwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F10E71262DF669EE0035A1A2 /* Debug */,
-				F10E71272DF669EE0035A1A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

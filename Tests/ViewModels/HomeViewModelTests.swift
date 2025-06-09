@@ -30,13 +30,22 @@ struct HomeViewModelTests {
 
 }
 
-class MockProductService: ProductServiceProtocol {
+class MockProductService: ProductServiceProtocol {    
     var fetchProductsResult: Result<[Product], Error> = .success([])
+    var loginResult: Result<String, Error> = .success("")
+    var createCartResult: Result<Cart, Error> = .success(Cart(id: nil, userId: 0, date: "", products: []))
 
     func fetchProducts() async throws -> [Product] {
         switch fetchProductsResult {
         case .success(let products): return products
-        case .failure(let error): throw error
+        case .failure(let error):     throw error
+        }
+    }
+
+    func login(username: String, password: String) async throws -> String {
+        switch loginResult {
+        case .success(let token): return token
+        case .failure(let error):  throw error
         }
     }
 }
