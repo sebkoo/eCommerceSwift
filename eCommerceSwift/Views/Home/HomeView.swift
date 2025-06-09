@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct HomeView: View {
+    @StateObject private var viewModel = HomeViewModel()
+
     var body: some View {
-        Text("Home")
+        NavigationView {
+            List(viewModel.products) { product in
+
+            }
+        }
     }
 }
 
