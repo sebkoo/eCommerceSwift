@@ -13,9 +13,13 @@ struct CartViewModelTests {
     @Test func test_addToCart_createNew() async throws {
         let mockService = MockProductService()
         let cart = Cart(id: 1, userId: 1, date: "2023-01-01", products: [CartProduct(productId: 1, quantity: 1)])
-//        mockService.createC
-    }
+        mockService.createCartResult = .success(cart)
 
+        let viewModel = await CartViewModel(productService: mockService)
+        await viewModel.addToCart(productId: 1, quantity: 1)
+
+        await #expect(viewModel.currentCart?.products.count == 1)
+    }
 }
 
 extension MockProductService {
